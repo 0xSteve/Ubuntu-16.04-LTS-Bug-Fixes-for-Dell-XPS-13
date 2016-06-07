@@ -21,6 +21,8 @@ Reinstall everything to do with xorg!!!
 sudo apt-get install --reinstall xserver-xorg-video-intel libgl1-mesa-glx libgl1-mesa-dri xserver-xorg-core
 #reconfigure it!
 sudo dpkg-reconfigure xserver-xorg
+#let's clean up our apt by removing obsolete libraries (just a good practice)
+apt autoremove
 #IMPORTANT:
 #might want to try unity --restart
 #probably will break things and force a reboot. just reboot anyway.

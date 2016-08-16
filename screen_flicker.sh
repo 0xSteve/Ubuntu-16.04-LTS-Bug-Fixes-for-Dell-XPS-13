@@ -17,7 +17,7 @@ sudo apt-get update -y
 
 echo 'Did it work? If yes wait, else Ctrl+c'
 spin
-Reinstall everything to do with xorg!!!
+# Reinstall everything to do with xorg!!!
 sudo apt-get install --reinstall xserver-xorg-video-intel libgl1-mesa-glx libgl1-mesa-dri xserver-xorg-core
 #reconfigure it!
 sudo dpkg-reconfigure xserver-xorg

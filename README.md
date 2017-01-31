@@ -1,4 +1,5 @@
 #DEPRECATED: No longer works (Jan. 2017)
+I left it up just in case it might still help, but I am almost certain it won't.
 # Ubuntu-16.04-LTS-Bug-Fixes-for-Dell-XPS-13
 should fix some of the typical problems with the migration over to 16.04 LTS on Dell. Just use the bash file that matches your problem.
 
